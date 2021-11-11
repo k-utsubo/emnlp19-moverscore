@@ -7,8 +7,8 @@ from torch import nn
 from math import log
 from itertools import chain
 
-from pytorch_pretrained_bert import BertTokenizer, BertModel
-from pytorch_pretrained_bert.modeling import BertPreTrainedModel
+from transformers import BertTokenizer, BertModel
+from transformers import BertPreTrainedModel
 from collections import defaultdict, Counter
 from multiprocessing import Pool
 from functools import partial
